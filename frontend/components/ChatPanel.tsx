@@ -24,10 +24,10 @@ const ChatPanel = () => {
       setMessages([...messages, { text: input, isUser: true }]);
       setIsLoading(true);
 
-      const currentMessageIndex = messages.length; // Track the index for the AI response
+      const currentMessageIndex = messages.length;
       setMessages((prev) => [
         ...prev,
-        { text: "", isUser: false }, // Placeholder for AI response
+        { text: "", isUser: false },
       ]);
 
       try {
