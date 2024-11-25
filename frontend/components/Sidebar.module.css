@@ -1,0 +1,21 @@
+.sidebar {
+  width: 50px;
+  height: 100%;
+  background-color: #f0f0f0;
+  transition: width 0.3s ease;
+  overflow: hidden;
+}
+
+.expanded {
+  width: 300px;
+}
+
+.toggleButton {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+  font-size: 20px;
+}
+
